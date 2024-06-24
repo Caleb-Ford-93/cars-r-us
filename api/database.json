@@ -1,0 +1,133 @@
+{
+  "colors": [
+    {
+      "id": 1,
+      "name": "Silver",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "name": "Midnight Blue",
+      "price": 300
+    },
+    {
+      "id": 3,
+      "name": "Firebrick Red",
+      "price": 500
+    },
+    {
+      "id": 4,
+      "name": "Spring Green",
+      "price": 200
+    }
+  ],
+  "interiors": [
+    {
+      "id": 1,
+      "name": "Beige Fabric",
+      "price": 300
+    },
+    {
+      "id": 2,
+      "name": "Charcoal Fabric",
+      "price": 400
+    },
+    {
+      "id": 3,
+      "name": "White Leather",
+      "price": 800
+    },
+    {
+      "id": 4,
+      "name": "Black Leather",
+      "price": 700
+    }
+  ],
+  "technologies": [
+    {
+      "id": 1,
+      "name": "Basic Package",
+      "price": 150
+    },
+    {
+      "id": 2,
+      "name": "Navigation Package",
+      "price": 300
+    },
+    {
+      "id": 3,
+      "name": "Visibility Package",
+      "price": 500
+    },
+    {
+      "id": 4,
+      "name": "Ultra Package",
+      "price": 800
+    }
+  ],
+  "wheels": [
+    {
+      "id": 1,
+      "name": "17-inch Pair Radial Silver",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "name": "17-inch Pair Radial Black",
+      "price": 300
+    },
+    {
+      "id": 3,
+      "name": "18-inch Pair Spoke Silver",
+      "price": 500
+    },
+    {
+      "id": 4,
+      "name": "18-inch Pair Spoke Black",
+      "price": 200
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "name": "Car",
+      "price": 1
+    },
+    {
+      "id": 2,
+      "name": "SUV",
+      "price": 1.5
+    },
+    {
+      "id": 3,
+      "name": "Truck",
+      "price": 2.25
+    }
+  ],
+  "orders": [
+    {
+      "colorId": "1",
+      "interiorId": "1",
+      "technologyId": "1",
+      "wheelId": "1",
+      "vehicleId": "1",
+      "id": 1
+    },
+    {
+      "colorId": "1",
+      "interiorId": "1",
+      "technologyId": "1",
+      "wheelId": "1",
+      "vehicleId": "2",
+      "id": 2
+    },
+    {
+      "colorId": "1",
+      "interiorId": "1",
+      "technologyId": "1",
+      "wheelId": "1",
+      "vehicleId": "3",
+      "id": 3
+    }
+  ]
+}

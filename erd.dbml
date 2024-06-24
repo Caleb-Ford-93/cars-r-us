@@ -1,0 +1,28 @@
+Table Orders {
+    id int [pk]
+    colorId int [ref: > Colors.id]
+    interiorId int [ref: > Interiors.id]
+    techId int [ref: > Technologies.id]
+    wheelId int [ref: > Wheels.id]
+    price float
+}
+Table Colors {
+    id int [pk]
+    name varchar
+    price float
+}
+Table Interiors {
+    id int [pk]
+    name varchar
+    price float
+}
+Table Technologies {
+    id int [pk]
+    name varchar
+    price float
+}
+Table Wheels {
+    id int [pk]
+    name varchar
+    price float
+}
